@@ -8,7 +8,7 @@ function Jumbotron() {
 
   function trackScrollPosition() {
     const y = window.scrollY;
-    const label = Math.min(Math.floor(y / 35) + 1, 20);
+    const label = Math.min(Math.floor(y / 45.6) + 1, 20);
     const imageToUse = "gif-images/" + label + ".jpg"; //GifImages[label];
     setBackground(imageToUse);
     console.log(imageToUse);

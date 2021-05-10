@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
-import Jumbotron from "./components/Jumbotron";
+// import Jumbotron from "./components/Jumbotron";
+import Jumbotron2 from "./components/Jumbotron2";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import CV from "./components/CV";
@@ -11,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <Jumbotron/>
+      <Jumbotron2/>
       <About/>
       <Portfolio/>
       <CV/>
