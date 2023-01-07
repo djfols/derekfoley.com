@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "babel": "^5.8.23",
-    "babel-core": "^5.0.0"
+    "babel-core": "^5.8.38"
   },
   "scripts": {
     "start": "PORT=3000 react-scripts start",
